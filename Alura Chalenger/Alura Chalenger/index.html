@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/adicionarProduto.js"></script>
+    <script defer src="js/api.js"></script>
+    <script defer src="js/listarProdutos.js"></script>
+    
+   
+
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpeg" class="logo_cabecalho" alt="log da alura">
+    </header>
+    <main>
+        <div class="principal">
+            <section class="principal__meus_produtos">
+                <div class="principal__meus_produtos__titulo">
+                    <H1 class="titulos">MEUS PRODUTOS</H1>
+                </div>
+                <div class="principal__meus_produtos__produtos">
+                  
+                </div>
+                <script defer src="js/main.js"></script>
+
+               
+            </section>
+            <section class="principal__adicionar_produtos">
+                <div class="principal__adicionar_produtos__titulo">
+                    <h1 class="titulos">ADCIONAR PRODUTOS</h1>
+                    
+                </div>
+                <div class="principal__adicionar_produtos__formulario">
+                    <form class="principal__adicionar_produtos__formulario_form">
+                        <input id="nome" type="text" placeholder="nome..." class="principal__adicionar_produtos__formulario__input" > 
+                        <input id="valor" type="text" placeholder="valor..." class="principal__adicionar_produtos__formulario__input">
+                        <input id="imagem" type="text" placeholder="imagem..." class="principal__adicionar_produtos__formulario__input" >
+                        <div class="principal__adicionar_produtos__formulario__botoes">
+                            <button id="guardar" class="principal__adicionar_produtos__formulario__botoes__botao">Guardar</button>
+                            <button id="limpar" class="principal__adicionar_produtos__formulario__botoes__botao">Limpar</button>
+                        </div>  
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">
+        <img src="img/logo.jpeg" class="logo_cabecalho" alt="log da alura"> 
+        <p class="rodape__texto">Desenvolvido por Thays Faria</p>
+        <p class="rodape__texto">Alura LATAM - 2024</p>
+    </footer>
+</body>
+</html>
